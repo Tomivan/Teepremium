@@ -1,0 +1,12 @@
+.footer {
+    text-align: center;
+    bottom: 0;
+    padding: 1em;
+    line-height: 1.57;
+    margin-top: 5%;
+}
+.link {
+   padding-right: 2em;
+   text-decoration: none;
+   color: #000000;
+}

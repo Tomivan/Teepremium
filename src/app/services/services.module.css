@@ -1,0 +1,20 @@
+.servicesTop {
+    display: flex;
+    justify-content: space-between;
+    background: #010f1c;
+    color: #ffffff;
+    padding: 2em;
+}
+.servicesTop h1 {
+    font-size: 4em;
+}
+.servicesTop p{
+    line-height: 1.57;
+}
+.serviceSection {
+    margin-top: 3%;
+    padding: 0 4em;
+}
+.cardContainer {
+    display: flex;
+}

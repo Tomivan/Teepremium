@@ -1,0 +1,11 @@
+.card {
+    background: #f7fafc;
+    border: 1px solid #cfdee8;
+    border-radius: 5px;
+    padding: 1em;
+    margin-right: 3%;
+    width: 20vw;
+}
+.cardPrice {
+    font-size: 32px;
+}
