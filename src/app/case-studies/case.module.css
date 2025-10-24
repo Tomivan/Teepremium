@@ -1,0 +1,25 @@
+.caseTop{
+    display: flex;
+    justify-content: space-between;
+    background: #010f1c;
+    padding: 2em;
+    color: #ffffff;
+}
+.caseTop h1{
+    font-size: 4em;
+}
+.caseBottom {
+    padding: 2em;
+    margin-top: 3em;
+}
+.section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+.view {
+    background: #e8f0f2;
+    border: none;
+    padding: 0.5em;
+    width: 12vw;
+}

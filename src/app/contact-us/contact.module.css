@@ -1,0 +1,37 @@
+.content {
+    padding: 1em;
+    margin: 5% 0 0 10%;
+}
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+}
+.label {
+    margin: 2% 0 1% 0;
+}
+.input {
+    height: 5vh;
+    border: 1px solid #0000001e;
+    border-radius: 5px;
+    background: #e8f0f2;
+}
+.input::placeholder {
+    padding-left: 1em;
+}
+.textarea {
+    height: 15vh;
+    border: 1px solid #0000001e;
+    border-radius: 5px;
+    background: #e8f0f2;
+}
+.submitButton {
+    background: #000000;
+    color: #ffffff;
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+    margin-top: 3%;
+    height: 5vh;
+    width: 10vw;
+}
