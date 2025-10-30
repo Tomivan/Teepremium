@@ -9,3 +9,16 @@
 .cardPrice {
     font-size: 32px;
 }
+
+@media screen and (max-width: 767px) {
+    .card{
+        width: 80vw;
+        margin-bottom: 2em;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .card{
+        width: 40vw;
+    }
+}

@@ -1,0 +1,56 @@
+.aboutTop {
+    display: flex;
+    justify-content: space-between;
+    background: #010f1c;
+    color: #ffffff;
+    padding: 2em;
+}
+.aboutTop h1 {
+    font-size: 4em;
+}
+.aboutTop p{
+    line-height: 1.57;
+    padding-top: 1em;
+}
+.aboutContent {
+    padding: 1em;
+    margin: 5% 0 0 10%;
+}
+.values {
+    display: flex;
+}
+.valueCard {
+    margin-right: 2%;
+    background: #f7fafc;
+    padding: 1em;
+    border: 1px solid #cfdee8;
+    border-radius: 8px;
+    width: 25%;
+}
+
+@media screen and (max-width: 767px) {
+    .aboutTop{
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutTop p {
+        font-size: 0.9em;
+    }
+    .aboutUsImage {
+        height: 40vh;
+        margin-top: 3em;
+    }
+    .values {
+        flex-direction: column;
+    }
+    .valueCard {
+        width: 80%;
+        margin-bottom: 2em;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .aboutUsImage {
+        width: 40%;
+    }
+}

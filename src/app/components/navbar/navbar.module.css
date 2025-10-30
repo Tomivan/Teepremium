@@ -1,14 +1,11 @@
 .navbar{
     background: #010f1c;
-    padding: 1em;
-    display: flex;
-    justify-content: space-between;
 }
 .navigation{
     margin-top: 2%;
 }
 .link {
-    color: #ffffff;
+    color: #ffffff !important;
     text-decoration: none;
     padding-right: 1em;
 }

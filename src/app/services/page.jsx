@@ -3,9 +3,9 @@ import React from 'react';
 import Image from 'next/image';
 import Service from '../../assets/services.svg';
 import styles from './services.module.css';
-import Navbar from '../components/navbar/navbar';
 import Card from '../components/card/card';
 import Footer from '../components/footer/footer';
+import NavComponent from '../components/navbar/navbar';
 
 const Services = () => {
     const servicesData = [
@@ -130,7 +130,7 @@ const Services = () => {
   ];
     return(
         <div className={styles.services}>
-            <Navbar />
+            <NavComponent />
             <div className={styles.servicesTop}>
                 <div className={styles.servicesLeft}>
                     <h1>Our <br/> Digital <br /> Marketing <br /> Services</h1>

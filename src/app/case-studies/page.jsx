@@ -1,7 +1,6 @@
 "use client";
 
 import React from 'react';
-import Navbar from '../components/navbar/navbar';
 import Footer from '../components/footer/footer';
 import Image from 'next/image';
 import Success from '../../assets/success.svg';
@@ -9,11 +8,12 @@ import Retailer from '../../assets/retailer.svg';
 import Restaurant from '../../assets/resturant.svg';
 import Startup from '../../assets/startup.svg';
 import styles from './case.module.css';
+import NavComponent from '../components/navbar/navbar';
 
 const CaseStudies = () => {
     return(
         <div className={styles.caseStudies}>
-            <Navbar />
+            <NavComponent />
             <div className={styles.caseTop}>
                 <div className={styles.caseLeft}>
                     <h1>Our <br /> Success <br /> Stories</h1>

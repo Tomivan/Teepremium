@@ -1,11 +1,20 @@
 .content {
+    background: #010f1c;
     padding: 1em;
-    margin: 5% 0 0 10%;
+    display: flex;
+    color: #ffffff;
+}
+.contactImage {
+    height: 80vh;
+}
+.contactText {
+    margin-left: 5%;
+    width: 50%;
 }
 .contactForm {
     display: flex;
     flex-direction: column;
-    width: 45vw;
+    width: 40vw;
 }
 .label {
     margin: 2% 0 1% 0;
@@ -26,12 +35,31 @@
     background: #e8f0f2;
 }
 .submitButton {
-    background: #000000;
-    color: #ffffff;
+    background: #d9d9d9;
     padding: 0.5em;
     border: none;
     border-radius: 5px;
     margin-top: 3%;
-    height: 5vh;
+    height: 6vh;
     width: 10vw;
+}
+@media screen and (max-width: 767px) {
+    .content {
+        margin: 5% 5% 0 5%;
+    }
+    .contactForm {
+        width: 90vw;
+    }
+    .submitButton {
+        width: 50vw;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .contactForm {
+        width: 70vw;
+    }
+    .submitButton {
+        width: 20vw;
+    }
 }

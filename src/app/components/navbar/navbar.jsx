@@ -2,23 +2,30 @@
 
 import React from 'react';
 import styles from './navbar.module.css';
-import Link from 'next/link';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 import Image from 'next/image';
 import Logo from '../../../assets/logo.svg';
 
-const Navbar = () => {
+const NavComponent = () => {
     return(
-        <div className={styles.navbar}>
-            <Link href="/"><Image src={Logo} className={styles.logo} alt="Logo" /></Link>
-            <div className={styles.navigation}>
-                <Link href='/services' className={styles.link}>Services</Link>
-                <Link href='/agency' className={styles.link}>Resources</Link>
-                <Link href='/case-studies' className={styles.link}>Case Studies</Link>
-                <Link href='/contact-us' className={styles.link}>Contact</Link>
+        <Navbar expand="lg" className={styles.navbar}>
+            <Container className={styles.navigation}>
+                <Navbar.Brand href="/"><Image src={Logo} className={styles.logo} alt="Logo" /></Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav" className={styles.nav}>
+                <Nav>
+                    <Nav.Link href="/services" className={styles.link}>Services</Nav.Link>
+                    <Nav.Link href="/abous-us" className={styles.link}>About Us</Nav.Link>
+                    <Nav.Link href="/case-studies" className={styles.link}>Case Studies</Nav.Link>
+                    <Nav.Link href="/contact-us" className={styles.link}>Contact Us</Nav.Link>
+                </Nav>
                 <button className={styles.getStarted}> Get Started</button>
-            </div>
-        </div>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
     )
 }
 
-export default Navbar;
+export default NavComponent;

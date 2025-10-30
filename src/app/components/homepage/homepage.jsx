@@ -5,13 +5,13 @@ import styles from './homepage.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
 import Background from '../../../assets/background.svg';
-import Navbar from '../navbar/navbar';
 import Footer from '../footer/footer';
+import NavComponent from '../navbar/navbar';
 
 const Homepage = () => {
     return(
         <div className={styles.homepage}>
-            <Navbar />
+            <NavComponent />
             <div className={styles.background}>
                 <Image src={Background} alt="Background" className={styles.backgroundImage} />
                 <div className={styles.overlay}>
@@ -22,8 +22,8 @@ const Homepage = () => {
             </div>
             <section className={styles.content}>
                 <h2>About Us</h2>
-                <p>Teepremium Agency is a leading digital marketing agency dedicated to helping businesses achieve their online goals. With a team of experienced professionals, we<br/> 
-                  offer a comprehensive suite of services, including SEO, PPC, social media marketing, and content creation. Our data-driven approach ensures that every strategy is <br /> 
+                <p>Teepremium Agency is a leading digital marketing agency dedicated to helping businesses achieve their online goals. With a team of experienced professionals, we
+                  offer a comprehensive suite of services, including SEO, PPC, social media marketing, and content creation. Our data-driven approach ensures that every strategy is  
                   tailored to your specific needs, maximizing your ROI and driving sustainable growth.</p>
             </section>
             <section className={styles.nextLevel}>
