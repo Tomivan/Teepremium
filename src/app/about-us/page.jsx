@@ -8,12 +8,12 @@ import About from '../../assets/about.svg';
 import Results from '../../assets/results.svg';
 import Clients from '../../assets/clients.svg';
 import Data from '../../assets/data.svg';
-import NavComponent from '../components/navbar/navbar';
+import Navbar from '../components/navbar/navbar';
 
 const Agency = () => {
     return(
         <div className={styles.aboutUs}>
-            <NavComponent />
+            <Navbar />
             <div className={styles.aboutTop}>
                 <div className={styles.aboutText}>
                     <h1>About <br /> Teepremium <br /> Agency</h1>

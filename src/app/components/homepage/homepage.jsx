@@ -6,12 +6,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Background from '../../../assets/background.svg';
 import Footer from '../footer/footer';
-import NavComponent from '../navbar/navbar';
+import Navbar from '../navbar/navbar';
 
 const Homepage = () => {
     return(
         <div className={styles.homepage}>
-            <NavComponent />
+            <Navbar />
             <div className={styles.background}>
                 <Image src={Background} alt="Background" className={styles.backgroundImage} />
                 <div className={styles.overlay}>

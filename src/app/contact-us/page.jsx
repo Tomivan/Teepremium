@@ -3,14 +3,14 @@
 import React from 'react';
 import styles from './contact.module.css';
 import Footer from '../components/footer/footer';
-import NavComponent from '../components/navbar/navbar';
 import Contact from '../../assets/contact.svg';
 import Image from 'next/image';
+import Navbar from '../components/navbar/navbar';
 
 const ContactUs = () => {
     return(
         <div className={styles.contactUs}>
-            <NavComponent />
+            <Navbar />
             <div className={styles.content}>
                 <Image src={Contact} alt="" className={styles.contactImage} />
                 <div className={styles.contactText}>

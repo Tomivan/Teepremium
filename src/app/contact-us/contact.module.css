@@ -9,7 +9,6 @@
 }
 .contactText {
     margin-left: 5%;
-    width: 50%;
 }
 .contactForm {
     display: flex;
@@ -45,10 +44,15 @@
 }
 @media screen and (max-width: 767px) {
     .content {
-        margin: 5% 5% 0 5%;
+        flex-direction: column;
+    }
+    .contactImage {
+      width: 80vw;
+      height: auto;
+      margin: 5% 0;
     }
     .contactForm {
-        width: 90vw;
+        width: 80vw;
     }
     .submitButton {
         width: 50vw;
@@ -56,8 +60,12 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .contactImage {
+        height: 30vh;
+        margin-top: 25%;
+    }
     .contactForm {
-        width: 70vw;
+        width: 40vw;
     }
     .submitButton {
         width: 20vw;

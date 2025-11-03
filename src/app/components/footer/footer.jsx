@@ -17,7 +17,7 @@ const Footer = () => {
             <section className={styles.footerTop}>
                 <Link href='/' className={styles.link}>Home</Link>
                 <Link href='/services' className={styles.link}>Services</Link>
-                <Link href='/resources' className={styles.link}>Resources</Link>
+                <Link href='/about-us' className={styles.link}>About Us</Link>
                 <Link href='/case-studies' className={styles.link}>Case Studies</Link>
                 <Link href='/contact-us' className={styles.link}>Contact</Link>
             </section>

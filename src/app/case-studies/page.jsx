@@ -8,12 +8,12 @@ import Retailer from '../../assets/retailer.svg';
 import Restaurant from '../../assets/resturant.svg';
 import Startup from '../../assets/startup.svg';
 import styles from './case.module.css';
-import NavComponent from '../components/navbar/navbar';
+import Navbar from '../components/navbar/navbar';
 
 const CaseStudies = () => {
     return(
         <div className={styles.caseStudies}>
-            <NavComponent />
+            <Navbar />
             <div className={styles.caseTop}>
                 <div className={styles.caseLeft}>
                     <h1>Our <br /> Success <br /> Stories</h1>
