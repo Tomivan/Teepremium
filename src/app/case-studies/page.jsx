@@ -23,7 +23,7 @@ const CaseStudies = () => {
                     trusted by businesses worldwide. Our success is built <br /> 
                     on one core belief: when our clients win, we win.</p>
                 </div>
-                <Image src={Success} alt="" className={styles.caseImage} />
+                <Image src={Success} alt="" className={styles.caseImage} width="100%" height="auto"/>
             </div>
             <div className={styles.caseBottom}>
                 <section className={styles.section}>

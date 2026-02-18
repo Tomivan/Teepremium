@@ -4,7 +4,7 @@ import React from 'react';
 import styles from './homepage.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
-import Background from '../../../assets/background.svg';
+import Background from '../../../assets/background.webp';
 import Footer from '../footer/footer';
 import Navbar from '../navbar/navbar';
 
@@ -13,7 +13,7 @@ const Homepage = () => {
         <div className={styles.homepage}>
             <Navbar />
             <div className={styles.background}>
-                <Image src={Background} alt="Background" className={styles.backgroundImage} />
+                <Image src={Background} alt="Background" className={styles.backgroundImage} width="100%" height="auto"/>
                 <div className={styles.overlay}>
                     <h1 className={styles.title}>Boost Your Business with <br /> Expert Digital Marketing</h1>
                     <p>We provide tailored digital marketing solutions to help your business grow <br /> and succeed in the competitive online landscape.</p>
