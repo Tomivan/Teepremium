@@ -25,7 +25,7 @@ const Agency = () => {
                         goals through innovative strategies and data-driven <br /> insights.
                     </p>
                 </div>
-                <Image src={About} alt="" className={styles.aboutUsImage} width="100%" height="auto"/>
+                <Image src={About} alt="" className={styles.aboutUsImage} width="700" height="600"/>
             </div>
             <div className={styles.aboutContent}>
                 <h2>Our Mission</h2>

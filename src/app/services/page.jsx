@@ -139,7 +139,7 @@ const Services = () => {
                     search engine optimization to social media management, our team of experts <br /> 
                     is dedicated to crafting tailored strategies that align with your business goals.</p>
                 </div>
-                <Image src={Service} alt="Services vector" className={styles.servicesRight} width="100%" height="auto"/>
+                <Image src={Service} alt="Services vector" className={styles.servicesRight} width="700" height="600"/>
             </div>
             {servicesData.map((service) => (
                 <section className={styles.serviceSection}>

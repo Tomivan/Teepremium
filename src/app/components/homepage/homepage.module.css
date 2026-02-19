@@ -1,6 +1,6 @@
 .overlay {
     position: absolute;
-    margin: -60% 0 0 23%;
+    margin: -60% 0 0 20%;
     color: #ffffff;
     text-align: center;
 }
@@ -42,7 +42,7 @@
 
 @media screen and (max-width: 767px) {
     .overlay {
-        margin: -80% 0 0 5%;
+        margin: -70% 0 0 5%;
     }
     .title {
         font-size: 1.5em;

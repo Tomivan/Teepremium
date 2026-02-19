@@ -23,7 +23,7 @@ const CaseStudies = () => {
                     trusted by businesses worldwide. Our success is built <br /> 
                     on one core belief: when our clients win, we win.</p>
                 </div>
-                <Image src={Success} alt="" className={styles.caseImage} width="100%" height="auto"/>
+                <Image src={Success} alt="" className={styles.caseImage} width="700" height="600"/>
             </div>
             <div className={styles.caseBottom}>
                 <section className={styles.section}>
@@ -32,7 +32,7 @@ const CaseStudies = () => {
                         <p>Increased website traffic by 150% and sales by 80% within six months through targeted SEO and social media campaigns.</p>
                         <button className={styles.view}>View Case Study</button>
                     </div>
-                    <Image src={Retailer} alt="" className={styles.retailer} />
+                    <Image src={Retailer} alt="" className={styles.retailer} width="300" height="150"/>
                 </section>
                 <section className={styles.section}>
                     <div className={styles.caseLeft}>
@@ -40,7 +40,7 @@ const CaseStudies = () => {
                         <p>Transformed a struggling restaurant's image with a new website, engaging content, and local advertising, leading to a 200% increase in reservations.</p>
                         <button className={styles.view}>View Case Study</button>
                     </div>
-                    <Image src={Restaurant} alt="" className={styles.retailer} />
+                    <Image src={Restaurant} alt="" className={styles.retailer} width="300" height="150"/>
                 </section>
                 <section className={styles.section}>
                     <div className={styles.caseLeft}>
@@ -48,7 +48,7 @@ const CaseStudies = () => {
                         <p>Implemented a comprehensive digital strategy for a tech startup, resulting in a 300% growth in leads and a 150% increase in customer acquisition.</p>
                         <button className={styles.view}>View Case Study</button>
                     </div>
-                    <Image src={Startup} alt="" className={styles.retailer} />
+                    <Image src={Startup} alt="" className={styles.retailer} width="300" height="150"/>
                 </section>
             </div>
             <Footer />

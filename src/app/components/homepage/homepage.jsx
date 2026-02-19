@@ -13,7 +13,7 @@ const Homepage = () => {
         <div className={styles.homepage}>
             <Navbar />
             <div className={styles.background}>
-                <Image src={Background} alt="Background" className={styles.backgroundImage} width="100%" height="auto"/>
+                <Image src={Background} alt="Background" className={styles.backgroundImage} width="1350" height="850"/>
                 <div className={styles.overlay}>
                     <h1 className={styles.title}>Boost Your Business with <br /> Expert Digital Marketing</h1>
                     <p>We provide tailored digital marketing solutions to help your business grow <br /> and succeed in the competitive online landscape.</p>

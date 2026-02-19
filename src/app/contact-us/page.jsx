@@ -12,7 +12,7 @@ const ContactUs = () => {
         <div className={styles.contactUs}>
             <Navbar />
             <div className={styles.content}>
-                <Image src={Contact} alt="" className={styles.contactImage} width="100%" height="auto"/>
+                <Image src={Contact} alt="" className={styles.contactImage} width="700" height="600"/>
                 <div className={styles.contactText}>
                     <h1>Contact Us</h1>
                     <p>We're here to help you grow your business. Reach out to us with any questions or inquiries.</p>
