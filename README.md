@@ -1,8 +1,8 @@
-Teepremium Agency - A digital marketing agency
+# Teepremium Agency - A digital marketing agency
 
-Teepremium digital marketing agency provides social media marketing, seo optimization and content creation services. Case studies on projects previously completed can be seen in the case studies page. To reach out to enquire about their services, check the "contact-us" page.
+Teepremium digital marketing agency provides social media marketing, seo optimization and content creation services. Case studies on projects previously completed can be seen in the case studies page. To reach out to enquire about their services, check the "contact-us" page. Built with NextJs
 
-To run the code locally: 
+# To run the code locally: 
 
 Clone the repository : git clone https://github.com/Tomivan/Teepremium.git
 
